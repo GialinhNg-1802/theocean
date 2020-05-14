@@ -1,0 +1,359 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face
+{
+	font-family: "iCiel Pony";
+	font-family: "Muli";
+}
+
+body
+{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	height: 100vh;
+	font-family:'iCiel Pony';
+	color: white;
+}
+.container
+{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow:scroll;
+	scroll-behavior: smooth;
+	font-family:"iCiel Pony";
+	color: white;
+}
+.header
+{
+	width: 100%;
+	height: 70px;
+	position:fixed;
+	margin:0;
+	padding:0;
+}
+.left
+{
+	width: 10%;
+	height: 50px;
+	position:fixed;
+	margin:20px auto auto 30px;
+	padding: 10px auto auto 30px;
+	float: left;
+	animation: tada 3s infinite;
+}
+.right
+{
+	width: 70%;
+	height: 50px;
+	position:fixed;
+	margin:20px auto auto 1500px;
+	float: right;
+}
+.menu1
+{
+	width: 100%;
+	height: 50px;
+	position:fixed;
+	margin:0;
+	padding:0;
+	letter-spacing: 1.5px;
+	
+}
+.menu1 ul
+{
+	list-style: none;
+	display: flex;
+    justify-content: center;
+}
+.menu1 ul li
+{
+	padding: 0px 30px 20px 30px;
+}
+.menu1 li a
+{
+	text-decoration: none;
+	color: white;
+}
+.menu1 ul li a:hover
+{
+	color: #ffa939;
+}
+
+.menu
+{
+	width: 10%;
+	height: 100%;
+	position:fixed;
+	margin-top: 35%;
+	margin-left: 95%;
+	opacity: 1;
+		
+}
+.menu ul
+{
+	list-style: none;
+	margin:0;
+	padding:0;	
+   
+}
+.menu ul li
+{
+	padding: 1px 15px 20px 20px;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+.menu ul li a:hover
+{
+	color: #ffa939;
+}
+
+
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 70px;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  margin-top:15%;
+}
+#mySidenav a:hover {
+  left: 0;
+}
+
+#trangchu {
+  top: 20px;
+  background-color: #06beb5;
+  
+}
+
+#gioithieu {
+  top: 80px;
+  background-color: #06beb5;
+  
+}
+
+#hoatdong {
+  top: 140px;
+  background-color: #06beb5;
+  
+}
+#cungthamgia {
+  top: 200px;
+  background-color: #06beb5;
+  
+}
+
+#lienhe {
+  top: 260px;
+  background-color: #06beb5;
+  
+}
+section
+{
+	width: 100%;
+	height: 850px;
+	display: flex;
+	
+}
+section#home {
+  background: url("../images/rac1.gif") no-repeat center center/cover;;
+}
+
+section#about 
+{
+  background: url("../images/trang-2.gif") no-repeat center center/cover;;
+}
+
+section#service {
+  background: url("../images/rac3.gif") no-repeat center center/cover;;
+}
+
+section#thamgia {
+  background: url("../images/trang-4.gif") no-repeat center center/cover;;
+}
+section#contact {
+  background: url("../images/rac5.gif") no-repeat center center/cover;;
+}
+section h1 {
+  font-size: 4rem;
+  font-color: white;
+  text-decoratio:none;
+}
+.content1
+{
+	width: 100%;
+	height: 850px;
+	
+	
+}
+.textbox1
+{
+	width: 65%;
+	height: 40%;
+	margin: 200px auto;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 4px;
+	text-align: center;
+	animation: slideInDown 3s ;
+}
+.button4
+{
+  width: 10%;
+  height: 31px;
+  background-color:#06beb5;
+  border: 2px solid white;
+  color: white;
+  padding-top: 4px;
+  text-align: center;
+  
+  cursor: pointer;
+  border-radius: 50px;
+  margin: -200px auto;
+  font-size:16px;
+  letter-spacing: 1px;
+  
+}
+.button4:hover
+{
+	background-color: #ffa939;
+}
+
+.content2
+{
+	width: 100%;
+	height: 100%;
+	
+}
+
+.content3
+{
+	width: 100%;
+	height: 100%;
+	
+}
+	  
+.left1
+{
+  width: 50%;
+  height: 100%;
+  float: left;
+  color: white;
+	}
+	
+.textbox2
+{
+	width:100%;
+	height: 40%;
+	margin: 200px auto auto 200px;
+	font-size: 80px;
+	float: left;
+	animation: fadeInTopRight 6s;
+}
+.textbox2:hover
+{
+	transform: scale(1.2);
+	
+}
+.button1
+{
+  width: 20%;
+  height: 31px;
+  background-color:#06beb5;
+  border: 2px solid white;
+  color: white;
+  padding-top: 4px;
+  text-align: center;
+  
+  cursor: pointer;
+  border-radius: 50px;
+  margin: 630px 400px;
+  font-size:16px;
+  letter-spacing: 1px
+}
+.button1:hover
+{
+	background-color: #ffa939;
+}
+.right1{
+  width: 50%;
+  height: 100%;
+  float: right;
+  color: white;
+	}
+.textbox3
+{
+	width:100%;
+	height: 40%;
+	margin: 150px 30px auto auto;
+	font-size: 80px;
+	float: left;
+}
+
+.button2
+{
+  width: 20%;
+  height: 31px;
+  background-color:#06beb5;
+  border: 2px solid white;
+  color: white;
+  padding-top: 4px;
+  text-align: center;
+  
+  cursor: pointer;
+  border-radius: 50px;
+  margin: 550px 180px;
+  font-size:16px;
+  letter-spacing: 1px
+}
+.button2:hover
+{
+	background-color: #ffa939;
+}
+
+hr
+{
+	width: 780px;
+	background-color: white;
+	animation: slideInLeft 3s;
+	margin: 130px auto auto 10px;
+}
+.content4
+{
+	width: 100%;
+	height: 850px;
+	display:flex;
+	justify-content:center;
+	
+	
+}
+.textbox4
+{
+	width: 60%;
+	height: 60%;
+	margin: 450px auto 300px auto;
+	font-family: Muli;
+}
+.textbox5
+{
+	width: 60%;
+	height: 60%;
+	margin: 450px auto auto 350px;
+	font-family: Muli;
+	line-spacing: 3px;
+}
+.textbox5:hover
+{
+	color: #ffa939;
+	
+}
